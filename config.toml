@@ -1,5 +1,3 @@
-publishdir = "/home/pi/www"
-
 # Override these settings with your own
 title = "codex"
 languageCode = "en-us"
