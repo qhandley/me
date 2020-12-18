@@ -1,8 +1,8 @@
-# Override these settings with your own
-title = "codex"
+# Site metadata
+title = "quinn"
 languageCode = "en-us"
-baseURL = "https://example.org/"
-copyright = "quinn©2020"
+baseURL = "/"
+copyright = "©{year}"
 
 # Add your Disqus shortname here.
 # disqusShortname = ""
@@ -12,15 +12,12 @@ copyright = "quinn©2020"
 
 # Optional params
 [params]
-  heading = "whats up"
-  subheading = "yo"
-
   # Follow the Hugo date/time format reference here: 
   # https://gohugo.io/functions/format/#gos-layout-string
-  dateFormat = "Jan 2 2006"
+  dateFormat = "2006-01-02"
 
   # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
-  # twitter = "https://twitter.com/<your handle>"
+  twitter = "https://twitter.com/quinnhandle"
   github = "https://github.com/qhandley"
   # email = "mailto:<your email>"
   # facebook = "https://facebook.com/<your handle>"
@@ -32,7 +29,7 @@ copyright = "quinn©2020"
   # Titles for your icons (shown as tooltips), and also their display order.
   # Currently, these icons are supported: 
   #   "Twitter", "GitHub", "Email", "Facebook", "GitLab", "Instagram", "LinkedIn", "YouTube"
-  iconOrder = ["LinkedIn", "GitHub"]
+  iconOrder = ["Twitter", "GitHub", "LinkedIn"]
 
   # Metadata for Twitter cards, defaults to params.twitter
   # twitterSite = "@<your handle>"
