@@ -1,0 +1,5 @@
+# ignore build output
+public/
+
+# ignore cached resources
+resources/
