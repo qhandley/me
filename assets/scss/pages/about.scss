@@ -29,10 +29,6 @@
   }
 }
 
-.fancy {
-  color: $primary;
-}
-
 .handle {
   display: inline-block;
   margin-top: 0.275em;
@@ -42,6 +38,18 @@
 
 .writing {
   text-decoration: none;
+  color: $primary;
+}
+
+/* console-text effect */
+
+.hidden {
+  opacity: 0;
+}
+
+.console-cursor {
+  position: relative;
+  left: 10px;
   color: $primary;
 }
 

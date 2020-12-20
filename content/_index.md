@@ -1,4 +1,6 @@
 ---
-heading: "Hi, I'm Quinn"
-subheading: "Catch me on the flipside"
+#heading: ""
+subheading: ""
 ---
+
+Graduating senior @ OSU passionate about embedded programming & computer architecture.
