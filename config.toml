@@ -1,8 +1,8 @@
 # Site metadata
 title = "quinn"
 languageCode = "en-us"
-baseURL = "/"
-copyright = "©{year}"
+baseURL = "https://www.qhandley.me"
+copyright = "quinn © {year}"
 
 # Add your Disqus shortname here.
 # disqusShortname = ""
@@ -19,11 +19,11 @@ copyright = "©{year}"
   # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
   twitter = "https://twitter.com/quinnhandle"
   github = "https://github.com/qhandley"
+  linkedin = "https://www.linkedin.com/in/quinnhandley"
   # email = "mailto:<your email>"
   # facebook = "https://facebook.com/<your handle>"
   # gitlab = "https://gitlab.com/<your handle>"
   # instagram = "https://instagram.com/<your handle>"
-  linkedin = "https://www.linkedin.com/in/quinnhandley"
   # youtube = "https://www.youtube.com/channel/<your channel>"
   
   # Titles for your icons (shown as tooltips), and also their display order.
@@ -52,9 +52,9 @@ copyright = "©{year}"
 
 # Controls the navigation
 [[menu.main]]
-  identifier = "about"
-  name = "about"
-  title = "About"
+  identifier = "home"
+  name = "home"
+  title = "Home"
   url = "/"
 
 [[menu.main]]
@@ -68,3 +68,9 @@ copyright = "©{year}"
   name = "projects"
   title = "Projects"
   url = "/projects"
+
+[[menu.main]]
+  identifier = "resume"
+  name = "resume"
+  title = "Resume"
+  url = "/resume.pdf"
