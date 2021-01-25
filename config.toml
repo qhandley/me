@@ -52,16 +52,10 @@ copyright = "quinn © {year}"
 
 # Controls the navigation
 [[menu.main]]
-  identifier = "home"
-  name = "home"
-  title = "Home"
-  url = "/"
-
-[[menu.main]]
-  identifier = "posts"
-  name = "posts"
-  title = "Posts"
-  url = "/posts"
+  identifier = "about"
+  name = "about"
+  title = "About"
+  url = "/about"
 
 [[menu.main]]
   identifier = "projects"
@@ -73,4 +67,4 @@ copyright = "quinn © {year}"
   identifier = "resume"
   name = "resume"
   title = "Resume"
-  url = "/resume.pdf"
+  url = "/misc/resume.pdf"
